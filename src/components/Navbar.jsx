@@ -45,7 +45,7 @@ function Navbar() {
                 nav ? <div className='bg-black/80 fixed w-full h-screen top-0 left-0'></div> : ""
             }
             {/* hamburger-menu */}
-            <div className={nav ? 'w-[300px] p-3 bg-white h-screen fixed top-0 left-0 z-10  translate-x-0 duration-300' : 'w-[300px] p-3  h-screen fixed top-0  z-10  -translate-x-[30rem] duration-30000'}>
+            <div className={nav ? 'w-[300px] p-3 bg-white h-screen fixed top-0 left-0 z-10  translate-x-0 duration-300' : 'w-[300px] p-3  h-screen fixed top-0  z-10  translate-x-[-30rem] duration-300'}>
                 <div className='flex justify-between'>
                     <h1 className='text-2xl'>Best
                         <span className='font-bold'> Eats</span>
