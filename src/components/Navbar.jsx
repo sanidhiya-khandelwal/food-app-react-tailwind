@@ -8,9 +8,7 @@ function Navbar() {
 
     const [nav, setNav] = useState(false);
     const close = () => {
-        console.log(nav);
         setNav(!nav);
-        console.log(nav);
     }
     const iconSize = window.innerWidth >= 640 ? 30 : 19;
     return (
